@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.challenge1"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="21" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ProductOrder"
+            android:label="@string/title_activity_product_order" >
+        </activity>
+        <activity
+            android:name=".OrderDetails"
+            android:label="@string/title_activity_order_details" >
+        </activity>
+        <activity
+            android:name=".ElectronicsProducts"
+            android:label="@string/title_activity_electronics_products" >
+        </activity>
+        <activity
+            android:name=".BooksProducts"
+            android:label="@string/title_activity_books_products" >
+        </activity>
+        <activity
+            android:name=".SportingProducts"
+            android:label="@string/title_activity_sporting_products" >
+        </activity>
+        <activity
+            android:name=".HealthProducts"
+            android:label="@string/title_activity_health_products" >
+        </activity>
+        <activity
+            android:name=".FashionProducts"
+            android:label="@string/title_activity_fashion_products" >
+        </activity>
+        <activity
+            android:name=".GiftsProducts"
+            android:label="@string/title_activity_gifts_products" >
+        </activity>
+        <activity
+            android:name=".ItemsDetails"
+            android:label="@string/title_activity_items_details" >
+        </activity>
+    </application>
+
+</manifest>
